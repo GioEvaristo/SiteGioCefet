@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Lora';
+}
+
+:root{
+    --primary: rgb(86, 130, 253);
+}
+
+header{
+    background-image: url(img/banner.jpeg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 6rem;
+    font-size: x-large;
+    color: white;
+}
+
+nav{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-evenly;
+    height: 2rem;
+    font-size: x-large;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+}
+
+main{
+    font-size: x-large;
+    min-height: calc(100vh - 10rem);
+    margin: 1rem;
+}
+
+main div{
+    padding: 1rem;
+}
+
+main.tabela tr, td{
+    align-items: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 2rem;
+}
+footer{
+    background-color: var(--primary);
+    color: white;
+    align-items: center;
+    height: 2rem;
+}
