@@ -35,7 +35,7 @@ nav a{
 
 main{
     font-size: x-large;
-    min-height: calc(100vh - 10rem);
+    min-height: calc(100vh - 8rem);
     margin: 1rem;
 }
 
@@ -43,12 +43,7 @@ main div{
     padding: 1rem;
 }
 
-main.tabela tr, td{
-    align-items: center;
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 2rem;
-}
+
 footer{
     background-color: var(--primary);
     color: white;
