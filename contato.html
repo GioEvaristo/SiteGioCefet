@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./contato.css">
 </head>
 <body>
     <header>
@@ -19,33 +20,46 @@
     <main>
         <form action="" method="post" enctype="multipart/form-data">
             <fieldset>
-                <legend>Contato</legend>
+                <legend><b>Contato</b></legend>
                 <div>
-                    <label for="nome">Nome: </label>
+                    <label for="nome">Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="João">
                 </div>
                 <div>
-                    <label for="email">E-mail: </label>
-                    <input type="email" name="email" id="nome" placeholder="user@email">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="nome" placeholder="name@email">
                 </div>
                 <div>
-                    <input type="radio" name="sexo" value="1" id="masculino">
+                    <input type="radio" name="sexo" value="M" id="masculino">
                     <label for="masculino">Masculino</label>
-                    <input type="radio" name="sexo" value="2" id="feminino">
+                    <input type="radio" name="sexo" value="F" id="feminino">
                     <label for="feminino">Feminino</label>
                 </div>
                 <div>
                     <label for="estado">Estado/Cidade</label>
                     <select name="estado" id="estado">
                         <option value=""></option>
-                        <option value="mg">MG</option>
-                        <option value="rj">RJ</option>
-                        <option value="sp">SP</option>
+                        <option value="MG">MG</option>
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
                     </select>
                     <input type="text" name="cidade" placeholder="Varginha">
                 </div>
+                <div>
+                    <label for="arquivo">Selecione um arquivo</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+                <div>
+                    <p>Sugestão</p>
+                    <label for="sugestao"></label>
+                    <textarea name="sugestao" id="sugestao" cols="70" rows="10"></textarea>
+                </div>
+                <div class="botao">
+                    <button class="botao1" type="submit"><b>Enviar</b></button>
+                    <button class="botao2" type="reset"><b>Limpar</b></button>
+                </div>
             </fieldset>
-                
+        </form>
     </main>
 
     <footer>

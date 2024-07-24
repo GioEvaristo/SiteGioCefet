@@ -1,0 +1,17 @@
+#topo div, p{
+    min-height: 10vh;
+    color: black;
+}
+
+div.pergunta a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+div.resposta a{
+    text-decoration: none;
+    color: black;
+    display: grid;
+    margin-top: 1rem;
+}

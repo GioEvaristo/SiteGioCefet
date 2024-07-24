@@ -22,8 +22,8 @@ nav{
     background-color: var(--primary);
     display: flex;
     justify-content: space-evenly;
-    height: 2rem;
-    font-size: x-large;
+    height: 2.5rem;
+    font-size: xx-large;
 }
 
 nav a{
@@ -35,14 +35,14 @@ nav a{
 
 main{
     font-size: x-large;
-    min-height: calc(100vh - 8rem);
+    min-height: calc(100vh - 12.5rem);
     margin: 1rem;
 }
 
-main div{
+main.index div{
     padding: 1rem;
+    text-align: justify;
 }
-
 
 footer{
     background-color: var(--primary);
