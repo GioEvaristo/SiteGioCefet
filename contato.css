@@ -26,9 +26,6 @@ button{
     cursor: pointer;
 }
 
-button:hover {
-    background-color: var(--primary);
-}
 
 .botao1, .botao2 {
     border-radius: 50%;

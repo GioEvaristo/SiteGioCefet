@@ -45,6 +45,7 @@ main.index div{
 }
 
 footer{
+    display: flex;
     background-color: var(--primary);
     color: white;
     align-items: center;
